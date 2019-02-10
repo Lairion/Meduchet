@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'drfg',
     'rest_framework',
     'django_filters',
-    'test_model',
     'django_admin_generator',
     'rest_framework.authtoken',
     'rest_framework_swagger',
@@ -54,6 +53,12 @@ INSTALLED_APPS = [
     #'dropbox',
     #'storages',
     # --
+    # our models
+    # --
+    'doctors',
+    'patients'
+    # --
+
 ]
 
 MIDDLEWARE = [
